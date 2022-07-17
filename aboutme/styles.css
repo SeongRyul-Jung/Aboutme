@@ -81,12 +81,13 @@ ul.skills_languages, ol.skills_languages{
 #progress_percent{
     position: absolute;
     right:50px;
+/* 위치 */
 }
 
 .fontello{
     font-size: 100px;
     color: rgb(158, 158, 158);
-    width: 50%
+    
     
 }
 
