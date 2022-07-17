@@ -1,0 +1,105 @@
+@import "home.css";
+@import "portfolio.css";
+@import "skills.css";
+@import "contact.css";
+
+body{
+    background-color: #2d2d2d;
+}
+
+#topMenu{
+    height: 50px;
+    width: 900px;
+}
+#topMenu ul li{
+    list-style: none;
+    background-color: #2d2d2d;
+    float: left;
+    line-height: 50px;
+    width: 210px;
+    vertical-align: middle;
+    text-align: center;
+}
+#topMenu .menuLink:hover{
+    text-decoration: none;
+    color:red;
+    background-color: #4d4d4d;
+}
+#topMenu .menuLink{
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 150px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "Trebuchet MS", Arial;
+    
+}
+
+.home_center_txt{
+    color:white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 80px;
+    line-height: 150%;
+}
+
+#skills{
+    color:white;
+    text-align: center;
+    font-size: 80px;
+    font-family: "Trebuchet MS", Arial;
+}
+
+ul.skills_languages, ol.skills_languages{
+    color:white;
+    max-width: 250px;
+    width:100%;
+    font-size: 30px;
+    font-family: "Trebuchet MS", Arial;
+}
+
+#progress_bar{
+    appearance: none;
+}
+#progress_bar::-webkit-progress-bar{
+    background: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: inset 30px 3px 10px #ccc;
+    width: 1300px;
+}
+#progress_bar::-webkit-progress-value{
+    border-radius:10px;
+    background: #1d976c;
+    background: -webkit-linear-gradient(to right, #93f9b9, #1d976c);
+    background: linear-gradient(to right, #93f9b9, #1d976c);
+}
+#html{
+    display: flex;
+    justify-content: space-between;
+}
+#progress_percent{
+    position: absolute;
+    right:50px;
+/* 위치 */
+}
+
+.fontello{
+    font-size: 100px;
+    color: rgb(158, 158, 158);
+    
+    
+}
+
+.icon-blogger:hover{
+    color:white;
+}
+.icon-github:hover{
+    color:white;
+}
+.icon-mail:hover{
+    color:white;
+}
+.icon-phone:hover{
+    color:white;
+}
